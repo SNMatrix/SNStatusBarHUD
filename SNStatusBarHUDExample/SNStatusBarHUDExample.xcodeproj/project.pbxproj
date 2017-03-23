@@ -15,8 +15,8 @@
 		A32990EF1E83F610004E9D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32990ED1E83F610004E9D03 /* LaunchScreen.storyboard */; };
 		A32990FA1E83F610004E9D03 /* SNStatusBarHUDExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A32990F91E83F610004E9D03 /* SNStatusBarHUDExampleTests.m */; };
 		A32991051E83F610004E9D03 /* SNStatusBarHUDExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A32991041E83F610004E9D03 /* SNStatusBarHUDExampleUITests.m */; };
-		A3F0275D1E83F980008A6472 /* SNStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A3F0275A1E83F980008A6472 /* SNStatusBarHUD.bundle */; };
-		A3F0275E1E83F980008A6472 /* SNStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0275C1E83F980008A6472 /* SNStatusBarHUD.m */; };
+		A3F027631E83FACD008A6472 /* SNStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A3F027601E83FACD008A6472 /* SNStatusBarHUD.bundle */; };
+		A3F027641E83FACD008A6472 /* SNStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F027621E83FACD008A6472 /* SNStatusBarHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,9 @@
 		A32991001E83F610004E9D03 /* SNStatusBarHUDExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNStatusBarHUDExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32991041E83F610004E9D03 /* SNStatusBarHUDExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNStatusBarHUDExampleUITests.m; sourceTree = "<group>"; };
 		A32991061E83F610004E9D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3F0275A1E83F980008A6472 /* SNStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SNStatusBarHUD.bundle; sourceTree = "<group>"; };
-		A3F0275B1E83F980008A6472 /* SNStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNStatusBarHUD.h; sourceTree = "<group>"; };
-		A3F0275C1E83F980008A6472 /* SNStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNStatusBarHUD.m; sourceTree = "<group>"; };
+		A3F027601E83FACD008A6472 /* SNStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SNStatusBarHUD.bundle; sourceTree = "<group>"; };
+		A3F027611E83FACD008A6472 /* SNStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNStatusBarHUD.h; sourceTree = "<group>"; };
+		A3F027621E83FACD008A6472 /* SNStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNStatusBarHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 		A32990DE1E83F610004E9D03 /* SNStatusBarHUDExample */ = {
 			isa = PBXGroup;
 			children = (
-				A3F027591E83F980008A6472 /* SNStatusBarHUD */,
+				A3F0275F1E83FACD008A6472 /* SNStatusBarHUD */,
 				A32990E21E83F610004E9D03 /* AppDelegate.h */,
 				A32990E31E83F610004E9D03 /* AppDelegate.m */,
 				A32990E51E83F610004E9D03 /* ViewController.h */,
@@ -146,15 +146,16 @@
 			path = SNStatusBarHUDExampleUITests;
 			sourceTree = "<group>";
 		};
-		A3F027591E83F980008A6472 /* SNStatusBarHUD */ = {
+		A3F0275F1E83FACD008A6472 /* SNStatusBarHUD */ = {
 			isa = PBXGroup;
 			children = (
-				A3F0275A1E83F980008A6472 /* SNStatusBarHUD.bundle */,
-				A3F0275B1E83F980008A6472 /* SNStatusBarHUD.h */,
-				A3F0275C1E83F980008A6472 /* SNStatusBarHUD.m */,
+				A3F027601E83FACD008A6472 /* SNStatusBarHUD.bundle */,
+				A3F027611E83FACD008A6472 /* SNStatusBarHUD.h */,
+				A3F027621E83FACD008A6472 /* SNStatusBarHUD.m */,
 			);
-			path = SNStatusBarHUD;
-			sourceTree = SOURCE_ROOT;
+			name = SNStatusBarHUD;
+			path = ../../SNStatusBarHUD;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -262,7 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3F0275D1E83F980008A6472 /* SNStatusBarHUD.bundle in Resources */,
+				A3F027631E83FACD008A6472 /* SNStatusBarHUD.bundle in Resources */,
 				A32990EF1E83F610004E9D03 /* LaunchScreen.storyboard in Resources */,
 				A32990EC1E83F610004E9D03 /* Assets.xcassets in Resources */,
 				A32990EA1E83F610004E9D03 /* Main.storyboard in Resources */,
@@ -292,7 +293,7 @@
 			files = (
 				A32990E71E83F610004E9D03 /* ViewController.m in Sources */,
 				A32990E41E83F610004E9D03 /* AppDelegate.m in Sources */,
-				A3F0275E1E83F980008A6472 /* SNStatusBarHUD.m in Sources */,
+				A3F027641E83FACD008A6472 /* SNStatusBarHUD.m in Sources */,
 				A32990E11E83F610004E9D03 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
