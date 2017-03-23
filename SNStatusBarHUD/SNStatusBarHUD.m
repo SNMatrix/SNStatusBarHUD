@@ -87,7 +87,6 @@ static NSTimer *timer_;
  */
 + (void)showSuccess:(NSString *)msg
 {
-    NSLog(@"%@", NSTemporaryDirectory());
     [self showMessage:msg image:[UIImage imageNamed:@"SNStatusBarHUD.bundle/success"]];
 }
 
